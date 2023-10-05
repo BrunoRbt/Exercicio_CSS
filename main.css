@@ -21,7 +21,7 @@ header .container{
 }
 
 header li, a{
-    isplay: inline;
+    display: inline;
     text-decoration: none;
 }
 
@@ -46,20 +46,48 @@ header li, a{
     margin: auto;
 }
 
-#Sports h3{
-    color:blanchedalmond
+.article a{
+
+    text-decoration: none;
+
+    background-color: blue;
+
+    color: #CCC;
+
+    padding: 8px;
+
 }
 
-#Economy h3{
-    color:green
+p{
+
+    margin: 20px 0;
+
 }
 
-#Gamer h3{
-    color: blue;
+#Sports {
+    background-color: burlywood;
+    padding: 10px 0px;
+    margin-top: 10px 0px;
 }
 
-#Music h3{
-    color: cyan;
+#Economy {
+    background-color: rgb(135, 222, 171);
+    padding: 10px 0px;
+    margin-top: 10px 0px;
+}
+
+#gamers {
+    background-color: rgb(153, 122, 224);
+
+    padding: 10px 0px;
+
+    margin-top: 10px 0px;
+}
+
+#Music {
+    background-color: rgb(138, 51, 123);
+    padding: 10px 0px;
+    margin-top: 10px 0px;
 }
 
 .Creation-date{
