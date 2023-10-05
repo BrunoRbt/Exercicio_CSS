@@ -1,0 +1,24 @@
+.Container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+#Sports h3{
+    color:blanchedalmond
+}
+
+#Economy h3{
+    color:green
+}
+
+#Gamer h3{
+    color: blue;
+}
+
+#Music h3{
+    color: cyan;
+}
+
+.Creation-date{
+    color:#CCC
+}
