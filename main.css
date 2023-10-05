@@ -1,6 +1,49 @@
-.Container {
-    width: 1366px;
-    margin: 0 auto;
+.article{
+    display: flex
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .Container {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header li, a{
+    isplay: inline;
+    text-decoration: none;
+}
+
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article{
+    padding: 2px;
+    min-width: 300px;
+    max-width: 1000px;
+    width: 33%;
+}
+
+.article article img{
+    padding: 2px;
+    height: 180px;
+    min-width: 180px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 #Sports h3{
