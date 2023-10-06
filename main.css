@@ -8,7 +8,7 @@
     padding: 0;
 }
 
-header .container{
+header .Container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -76,7 +76,7 @@ p{
     margin-top: 10px 0px;
 }
 
-#gamers {
+#Gamers {
     background-color: rgb(153, 122, 224);
 
     padding: 10px 0px;
